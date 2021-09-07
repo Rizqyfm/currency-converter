@@ -101,3 +101,9 @@ form button {
     cursor: pointer;
     color: black;
 }
+
+@media screen and (max-width:600px) {
+    .wrapper {
+        width: 350px;
+    }
+}
