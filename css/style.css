@@ -77,6 +77,21 @@ form .drop-list {
     width: auto;
     font-size: 16px;
     margin: 0 -5px 0 5px;
+    background-color: whitesmoke;
+}
+
+.select-box select::-webkit-scrollbar {
+    width: 8px;
+}
+
+.select-box select::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+
+.select-box select::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 8px;
+    border-right: 2px solid #fff;
 }
 
 .select-box img {
